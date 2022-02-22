@@ -1,0 +1,87 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Sans&family=Open+Sans&family=Signika+Negative:wght@600&display=swap');
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(36, 39, 41);
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background-color: rgb(41, 47, 51);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  font-size: 0.9vw;
+}
+
+.card {
+  transition: 0.1s;
+  /* border-radius: 15px; */
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 30px 36px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.card-body {
+  transition: 0.3s;
+}
+
+.container-fluid {
+  width: 93%;
+}
+
+.btn {
+  background-color: #005abb;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.nav-item {
+  margin-left: 11px;
+}
+
+.navbar-nav {
+  margin-left: 30px;
+}
+
+.ReactFlagsSelect-module_flagsSelect__2pfa2 .react-flags-select-css-options {
+  color: #cccccc;
+  border: thin solid rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 1200px) {
+  .vdi-large-screen-only {
+    visibility: visible;
+    display: block;
+  }
+
+  .vdi-small-screen-only {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1199px) {
+  .vdi-large-screen-only {
+    visibility: hidden;
+    display: none;
+  }
+
+  .vdi-small-screen-only {
+    visibility: visible;
+  }
+}
